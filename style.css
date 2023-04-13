@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.paper{
+    height: 70vmin;
+    width: 65vmin;
+    background: #221d1a;
+    position: relative;
+    z-index: -1000;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+
+.triangle-yellow{
+    width: 0vmin;
+    height: 0vmin;
+    border-top: 12vmin solid transparent;
+    border-bottom: 12vmin solid transparent;
+
+    border-left: 12vmin solid #d2a440;
+
+    position: absolute;
+    bottom: 0vmin;
+
+}
+
+.triangle-lightgrey1{
+    width: 0vmin;
+    height: 0vmin;
+    border-left: 13vmin solid transparent;
+    border-right: 13vmin solid transparent;
+
+    border-bottom: 13vmin solid #cfc9c5;
+
+    position: absolute;
+    bottom: 0vmin;
+    right: 40.7vmin;
+}
+.triangle-lightgrey2{
+    width: 0vmin;
+    height: 0vmin;
+    border-top: 25vmin solid transparent;
+    border-bottom: 25vmin solid transparent;
+
+    border-left: 25vmin solid #cfc9c5;
+
+    position: absolute;
+    right: 15.75vmin;
+    top: -4vmin;
+}
+
+.triangle-medgrey1{
+    width: 0vmin;
+    height: 0vmin;
+    border-right: 22vmin solid transparent;
+    border-bottom: 22vmin solid transparent;
+
+    border-left: 22vmin solid #a0a6ad;
+
+    position: absolute;
+}
+.triangle-medgrey2{
+    width: 0vmin;
+    height: 0vmin;
+    border-top: 24vmin solid transparent;
+
+    border-left: 24vmin solid #a0a6ad;
+
+    position: absolute;
+    left: 24vmin;
+    bottom: 0vmin;
+}
+
+.triangle-darkgrey{
+    width: 0;
+    height: 0;
+    border-left: 21vmin solid transparent;
+    border-right: 21vmin solid transparent;
+
+    border-top: 21vmin solid #706c6d;
+
+    position: absolute;
+    left: 28vmin;
+}
+
+.triangle-red{
+    width: 0vmin;
+    height: 0vmin;
+    border-top: 40.5vmin solid transparent;
+    border-bottom: 40.5vmin solid transparent;
+
+    border-right: 40.5vmin solid #9e1307;
+
+    position: absolute;
+    right: 0vmin;
+    bottom: -16.6vmin;
+}
